@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+
+<html>
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="rps.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <title> Rock Paper Scissor | With an UI!</title>
+
+</head>
+
+
+<body>
+    
+    <!-- Box that should hold the content on the middle of the screen -->
+    <div class="container">
+
+
+            <!-- Player and Computer -->
+            <div class="players">
+
+                <h1>Player</h1>
+
+                <h1>Computer</h1>
+
+            </div>
+
+
+            <!-- Icons that become visible when the player plays them -->
+            <div class="playedicons">
+
+                <img class="playedbyp" style="visibility: hidden;" src="rock.png" alt="?????????">
+
+                <p style="visibility: hidden;">Append winner message!</p>
+
+                <img class="playedbyc" style="visibility: hidden;" src="paper.png" alt="????????">
+
+            </div>
+
+            <!-- Scores -->
+            <div class="scores">
+
+                <h3>Score: <span class="playerscore"></span> </h3>
+                <h3>Score: <span class="computerscore"></span> </h3>
+
+            </div>
+
+            <!-- Icons that the player can choose -->
+            <div class="icons">
+
+                <img id="rock" src="rock.png" alt="rock">
+                <img id="paper" src="paper.png" alt="paper">
+                <img id="scissor" src="scissor.png" alt="scissor">
+
+            </div>
+
+
+    </div>
+
+    <script src="rps.js"></script>
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>
